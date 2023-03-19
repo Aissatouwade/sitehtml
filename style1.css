@@ -1,0 +1,293 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'popins', sans-serif;
+	scroll-behavior: smooth;
+}
+p{
+	font-weight: 300;
+	color: black;
+
+}
+
+.header{
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	padding: 20px 10px;
+	width: 100%;
+	z-index: 1;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	transition: 0.5s;
+}
+.logo{
+	color:#FF69B4;
+	font-weight: bold;
+	font-size: 2em;
+	text-decoration: none;
+}
+.logo span{
+	color: #FF1493;
+}
+.navbar{
+	display: flex;
+	position: relative;
+}
+.navbar li{
+	list-style: none;
+}
+.navbar a{
+	color:#EE82EE;
+	text-decoration: none;
+	margin-left: 30px;
+	font-weight: 700;
+
+}
+.btn-command{
+	padding: 10px 20px;
+	background: #FFC0CB;
+	margin-top: -10px;
+	text-transform: uppercase;
+}
+.btn-command:hover{
+	background:#FF69B4 ;
+	transition: ease-out;
+}
+header .navbar li a:hover{
+	color: #FF69B4;
+	border-bottom: 2px solid #FF69B4;
+}
+.bannière{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:	#C71585
+
+}
+.bannière .contenu{
+	max-width: 70%;
+	text-align: center;
+}
+.bannière .contenu h2{
+	color: #fff;
+	font-size: 3em;
+	text-transform: capitalize;
+}
+
+.contenu p:nth-child(2){
+	color: white;
+	font-size: 1.2em;
+}
+.bouton1{
+	font-size: 1em;
+	color: #fff;
+	background: #EE82EE;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.5s;
+	margin-left: 10px;
+}
+.bouton2{
+	font-size: 1em;
+	color: #fff;
+	background: #ff5a98;
+	padding: 10px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.5s;
+	margin-left: 10px;
+}
+
+.bouton1:hover{
+letter-spacing: 4px;
+
+
+}
+section{
+padding: 100px;
+}
+.row{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.row .col50{
+	position: relative;
+	width: 48%;
+	justify-content: center;
+	align-items: center;
+}
+.row .col50 h2{
+	margin-bottom: 20px;
+}
+.titre-texte{
+	color: 	#FF69B4;
+
+
+	font-size: 2em;
+	font-weight: 300px;
+	text-transform: capitalize;
+}
+.titre-texte span{
+	color: #EE82EE;
+	font-size: 1.em;
+	font-weight: 700px;
+}
+img{
+	height: 250px;
+	width: 250px;
+	position: relative;
+	width: 350px;
+	margin-top: 20px;
+	border: 20px solid 	#C71585;
+	box-shadow: 20px 15px 35px rgba(0, 0, 0, 0.8);
+}
+
+.titre{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.Accessoires{
+	margin-top: -100px;
+}
+.Accessoires.contenu{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+
+.Accessoires.contenu .box .imbox{
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+.Accessoires .contenu .box .imbox img{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+.Autres{
+	margin-top: -100px;
+}
+.Autres .contenu{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	justify-content: center;
+}
+.Commandeform{
+	background:	#fff ;
+	background-size: cover;
+	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
+	width: 100%;
+	background-position: unset;
+	font-family: 4em;
+}
+.Commandeform{
+	padding: 10% 50px;
+	background: 		#FF69B4;
+	box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.8);
+	max-width: 500px;
+	margin-top: 50px;
+	justify-content: center;
+	align-items: center;
+	margin-left: 38%;
+}
+.Commandeform .inputboite{
+	position: relative;
+	width: 50%;
+	margin-bottom:20px ;
+}
+
+.Commandeform h3{
+	color: black;
+	font-size: 1.2em;
+	margin-top: 20px;
+
+}
+.Commandeform .inputboite input,
+.Commandeform.inputboite textarea{
+	width: 100%;
+	border: 1px solid #555;
+	padding: 10px;
+	color: black;
+	outline: none;
+	font-size: 16px;
+	font-weight: 100;
+	resize: none;
+}
+.Commandeform .inputboite input[type="submit"]{
+	font-size: 1em;
+	font-weight: 700;
+	color: #FFF;
+	background: pink;
+	display: inline-block;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	transition: 0.5s;
+	max-width: 120px;
+	align-items: center;
+	justify-content: center;
+}
+.copyright{
+	padding: 20px 40px;
+	border-top: 2px solid rgba(0, 0, 0, 0.1);
+	background: pink;
+	text-align: center;
+}
+.copyright p:nth-child(1){
+	color: #FF69B4;
+	text-decoration: none;
+	font-weight: 600;
+	font-style: italic;
+}
+.Commander .titre-texte span{
+	color:white ;
+	font-size: 2em;
+}
+ header.sticky{
+ 	background:#fff ;
+ 	padding: 10px 10px;
+ 	box-shadow:0px 5px 20px rgba(0, 0, 0, 0.5);
+ }
+ header.sticky .logo{
+ 	color:#FF1493 ;
+ }
+ header.sticky . navbar li a {
+ 	color:#FF69B4 ;
+ }
+ header.sticky li a:hover{
+ 	color:#FFB6C1 ;
+ 	border-bottom:2px solid #FF1493 ;
+ }
+ button{
+ 	background-color: #C71585;
+ 	font-size: 1em;
+ 	color:white;
+	text-decoration: none;
+ }
