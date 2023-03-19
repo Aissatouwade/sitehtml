@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style1.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+	<title>Myprojet</title>
+</head>
+<body>
+	<header>
+	<a href="#" class="logo"><span>OukhtyStore</span></a>
+
+	<div class=menutoggle onclick="toggleMenu();"></div>
+		<ul class="navbar">
+			<li><a href="#bannière" onclick="toggleMenu()">Accueil</a></li>
+			<li><a href="#apropos"onclick="toggleMenu()">Apropos</a></li>
+			<li><a href="#Accessoires"onclick="toggleMenu()">Accessoires</a></li>
+			<li><a href="#Sacs"onclick="toggleMenu()">Autres</a></li>
+			<li><a href="#Commander"onclick="toggleMenu()">Commander</a></li>
+
+		</ul>
+	</header>
+<section class="bannière" id="bannière">
+	<div class="contenu">
+		<h2>Que Des accessoires chics et classe.Faites-vous plaisir</h2>
+		<p></p>
+		<a href="#" class="bouton1">Nos accessoires</a>
+		<a href="#" class="bouton2">Commander</a>
+	</div>
+</section>
+	<section class="apropos" id="apropos">
+		<div class="row">
+			<div class="col50"> 
+	<h2 class="titre-texte"><span>A</span>propos de Notre site</h2>
+	<p>OukhtyStore est une marque d'accessoires de femme avec des articles à la mode.Notre mission est d'offrir à nos clients un vaste choix de (Categories d'Accessoires). Notre expérience en la matière nous permet de vouss offrir le meilleur rapport qualité/prix pour vous. </p><br>
+				</div>
+		<div class="col50">
+			<div class="img">
+				<img src="1.jpg" alt="image">
+			</div>
+			</div>
+			</div>
+	</section>
+	<section class="Accessoires" id="Accessoires">
+		<div class="titre">
+				<h2 class="titre-texte"><span>A</span>ccessoires</h2>
+		</div>
+		<table>
+			<tr>
+				<th><a href="7.jpg" target="_blank"><img src="7.jpg"></a></th>
+				<th><img src="Q.jpg"></th>
+				<th><img src="6.jpg"></th>
+			</tr>
+			<tr>
+				<th><img src="5.jpg"></th>
+				<th><img src="3.jpg"></th>
+				<th><img src="R.jpg"></th>
+			</tr>
+			<tr>
+				<th><img src="10.jpg" alt=""></th>
+				<th><img src="J.jpg" alt=""></th>
+				<th><img src="A.jpg" alt=""></th>
+			</tr>
+			<tr>
+				<th><img src="C.jpg" alt=""></th>
+				<th><img src="F.jpg" alt=""></th>
+				<th><img src="D.jpg" alt=""></th>
+			</tr>
+			<tr>
+				<th><img src="8.jpg" alt=""></th>
+				<th><img src="O.jpg" alt=""></th>
+				<th><img src="P.jpg" alt=""></th>
+			</tr>
+			<tr>
+				<th><img src="A1.jpg" alt=""></th>
+				<th><img src="A2.jpg" alt=""></th>
+				<th><img src="A3.jpg" alt=""></th>
+			</tr>
+			
+		</table>
+</section>	
+
+<section class="Autres" id="Autres">
+		<div class="titre">
+				<h2 class="titre-texte"><span>A</span>utres</h2>
+				<p>OukhtyStore vous presente aussi des voiles et d'autres articles decouvrez un tas de pépites</p>
+		</div>
+
+		<table>
+			<tr>
+				<th><img src="G.jpg" alt=""></th>
+				<th><img src="H.jpg" alt=""></th>
+				<th><img src="K.jpg" alt=""></th>
+			</tr>
+				<tr>
+				<th><img src="N.jpg" alt=""></th>
+				<th><img src="M.jpg" alt=""></th>
+				<th><img src="L.jpg" alt=""></th>
+			</tr>
+		</table>
+</section>
+<section class="Commander" id="Commander" >
+	<div class="titre-noir">
+		<h2 class="titre-texte"><span>C</span>Commander</h2>
+		<p>Chers dames nous vous offrons la possibilté de faire votre choix,<br>nous commander et de vous faire livrer à la minute qui suit.<br>Bénéficier de cette facilité</p>
+	</div>
+		<div class="Commandeform">
+			<h3>Envoyer un message</h3>
+			<div class="inputboite">
+			<imput type="text" placeholder="Nom">
+				<textarea placeholder="Nom"></textarea>
+		</div>
+		<div class="inputboite">
+		<imput type="text" placeholder="Telephone">
+			<textarea placeholder="Telephone"></textarea>
+		</div>
+	<div class="inputboite">
+		<textarea placeholder="Choix articles"></textarea>
+	</div>
+	<div class="inputboite">
+		<imput type="submit" value="Envoyer">
+			<button onclick="Envoyer">ENVOYER</button>
+
+	</div>
+</section>
+       
+<div class="copyright">
+	<p>copyright 2023<a href="yayoo">AIDAWADE</a></p>
+</div>
+<script type="text/javascript">
+	window.addEventListener('scroll',function(){
+		const header =document.querySelector('header');
+		header.classList.toggle("sticky",window.scrolly > 0);
+	function toggleMenu(){
+		const toggleMenu= document.querySelector('menutoggle');
+		const navbar = document.querySelector('navbar');
+		menutoggle.classList.toggle('active');
+		navbar.classList.toggle('active');
+	}
+
+
+	});
+</script>
+</body>
+</html>
