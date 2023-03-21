@@ -13,15 +13,16 @@
 </head>
 <body>
 	<header>
-	<a href="#" class="logo"><span>OukhtyStore</span></a>
+	<a href="#" class="logo"><span>O</span>ukhtyStore</a>
 
 	<div class=menutoggle onclick="toggleMenu();"></div>
 		<ul class="navbar">
 			<li><a href="#bannière" onclick="toggleMenu()">Accueil</a></li>
 			<li><a href="#apropos"onclick="toggleMenu()">Apropos</a></li>
 			<li><a href="#Accessoires"onclick="toggleMenu()">Accessoires</a></li>
-			<li><a href="#Sacs"onclick="toggleMenu()">Autres</a></li>
+			<li><a href="#Autres"onclick="toggleMenu()">Autres</a></li>
 			<li><a href="#Commander"onclick="toggleMenu()">Commander</a></li>
+
 
 		</ul>
 	</header>
@@ -136,14 +137,12 @@
 	window.addEventListener('scroll',function(){
 		const header =document.querySelector('header');
 		header.classList.toggle("sticky",window.scrolly > 0);
-	function toggleMenu(){
+	     function toggleMenu(){
 		const toggleMenu= document.querySelector('menutoggle');
 		const navbar = document.querySelector('navbar');
 		menutoggle.classList.toggle('active');
 		navbar.classList.toggle('active');
 	}
-
-
 	});
 </script>
 </body>
